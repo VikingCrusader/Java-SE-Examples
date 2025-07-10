@@ -30,7 +30,7 @@ class Person {
     }
 }
 
-class Driver extends Person {
+class Driver extends Person11 {
     private String licenseID;
 
     Driver(String name, String licenseID) {
@@ -44,7 +44,7 @@ class Driver extends Person {
     }
 }
 
-class Passenger extends Person {
+class Passenger extends Person11 {
     private int ticketNumber;
 
     Passenger(String name, int ticketNumber) {
